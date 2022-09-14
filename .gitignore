@@ -129,4 +129,6 @@ dmypy.json
 .pyre/
 
 # Django app ignores
-/myshop/myshop
+/educa/educa
+
+*.idea*

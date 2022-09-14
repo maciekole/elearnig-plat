@@ -1,0 +1,42 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "subject1",
+    "slug": "subject1"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 2,
+  "fields": {
+    "title": "subject2",
+    "slug": "subject2"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 1,
+    "title": "course 1",
+    "slug": "course-1",
+    "overview": "xd",
+    "created": "2022-08-21T16:21:09.503Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 2,
+  "fields": {
+    "owner": 1,
+    "subject": 2,
+    "title": "course 2",
+    "slug": "course-2",
+    "overview": "xd",
+    "created": "2022-08-21T16:21:20.158Z"
+  }
+}
+]
