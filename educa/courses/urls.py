@@ -6,6 +6,7 @@ from .views.course_delete_view import CourseDeleteView
 from .views.course_module_update_view import CourseModuleUpdateView
 from .views.content_create_update_view import ContentCreateUpdateView
 from .views.content_delete_view import ContentDeleteView
+from .views.module_content_list_view import ModuleContentListView
 
 urlpatterns = [
     path('mine/', ManageCourseListView.as_view(), name='manage_course_list'),
@@ -18,4 +19,5 @@ urlpatterns = [
     path('module/<int:module_id>/content/<model_name>/<id>/', ContentCreateUpdateView.as_view(),
          name='module_content_update'),
     path('content/<int:id>/delete/', ContentDeleteView.as_view(), name='module_content_delete'),
+    path('module/<int:module_id>/', ModuleContentListView.as_view(), name='module_content_list'),
 ]

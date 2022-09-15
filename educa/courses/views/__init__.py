@@ -6,3 +6,4 @@ from . import course_module_update_view
 from . import course_update_view
 from . import manage_course
 from . import manage_course_list_view
+from . import module_content_list_view
